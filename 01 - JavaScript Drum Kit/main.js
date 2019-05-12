@@ -8,7 +8,7 @@ function playSound(e) {
   div.classList.add('playing');
 }
 
-//Remove the highlight
+// Remove the highlight
 function removeHigh(e) {
   if (e.propertyName !== 'transform') return;
   e.target.classList.remove('playing');
